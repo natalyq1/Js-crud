@@ -46,9 +46,9 @@ const listaClientes = () => {
     });
     return promise;
   };
-  
-  listaClientes()
-    .then((data) => {
+  console.log(listaClientes());
+  listaClientes().then((data) => {
+    console.log(data);
       data.forEach((perfil) => {
         const nuevaLinea = crearNuevaLinea(perfil.nombre, perfil.email);
         table.appendChild(nuevaLinea);
@@ -56,5 +56,5 @@ const listaClientes = () => {
     })
     .catch((error) => alert("Ocurrió un error"));
   
-  // console.log(data);
-  //
+
+  
