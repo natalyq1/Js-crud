@@ -28,27 +28,14 @@ const crearNuevaLinea = (nombre, email) => {
 };
 
 const table = document.querySelector("[data-table]")
-const listaClientes = () => {
-    const promise = new Promise((resolve, reject) => {
-      const http = new XMLHttpRequest();
-      http.open("GET", "http://localhost:3000/perfil");
+
+//FETCH API
+const listaClientes = () => fetch("http://localhost:3000/perfil").then(respuesta => respuesta.json()
+    )
   
-      http.send();
-  
-      http.onload = () => {
-        const response = JSON.parse(http.response);
-        if (http.status >= 400) {
-          reject(response);
-        } else {
-          resolve(response);
-        }
-      };
-    });
-    return promise;
-  };
-  console.log(listaClientes());
+  //console.log(listaClientes());
   listaClientes().then((data) => {
-    console.log(data);
+    //console.log(data);
       data.forEach((perfil) => {
         const nuevaLinea = crearNuevaLinea(perfil.nombre, perfil.email);
         table.appendChild(nuevaLinea);
