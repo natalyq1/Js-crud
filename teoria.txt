@@ -1,6 +1,6 @@
 comando para la base de datos en gitbash
     json-server
-        para verificar que exista json y me lea el db.
+para verificar que exista json y me lea el db.
     json-server --watch db.json
 
 AJAX--ASYNCRONOUS JAVASCRIPT AND XML(LENGUAJE DE MARCADO)
@@ -29,3 +29,13 @@ CONSOLA
     npm install -g browser-sync
     browser-sync start --server --file . --host --port 5000 --startPath screens/lista_cliente.html
 Esto es para un servidor local
+
+
+
+UUID cdn
+<!--Script de uuid--dejamos la responsabilidad de asignar un id unico a un externo-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+en consola de navegador, escribo
+uuid.v4()
+'31a4effa-c4ac-48fc-ac21-9c6f3030d040'

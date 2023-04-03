@@ -8,7 +8,17 @@
     {
       "nombre": "Christian Velasco",
       "email": "christian@alura.com",
-      "id": 1
+      "id": 2
+    },
+    {
+      "nombre": "Pedro",
+      "email": "pedro@gmail.com",
+      "id": "058438c3-19ff-4cc6-bad2-f1ff78292839"
+    },
+    {
+      "nombre": "miriam",
+      "email": "miriam@gmail.com",
+      "id": "705aa0c7-78b4-4f1e-98e3-d7ec85960115"
     }
   ]
 }
