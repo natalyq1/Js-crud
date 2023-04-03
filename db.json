@@ -1,16 +1,6 @@
 {
   "perfil": [
     {
-      "nombre": "Harland Lohora",
-      "email": "harland@alura.com",
-      "id": 1
-    },
-    {
-      "nombre": "Christian Velasco",
-      "email": "christian@alura.com",
-      "id": 2
-    },
-    {
       "nombre": "Pedro",
       "email": "pedro@gmail.com",
       "id": "058438c3-19ff-4cc6-bad2-f1ff78292839"
@@ -19,6 +9,21 @@
       "nombre": "miriam",
       "email": "miriam@gmail.com",
       "id": "705aa0c7-78b4-4f1e-98e3-d7ec85960115"
+    },
+    {
+      "nombre": "robert",
+      "email": "robert@gmail.com",
+      "id": "af3431ad-7ef8-47fb-b35f-5ef82023a0bc"
+    },
+    {
+      "nombre": "Claudia",
+      "email": "claudia@gmail.com",
+      "id": "04cfd12a-a2d5-49f1-837c-d69cc84733a6"
+    },
+    {
+      "nombre": "Mariana",
+      "email": "mariana@gmail.co",
+      "id": "a66b1d50-a74b-45a9-9bcf-a8475cfc2834"
     }
   ]
 }

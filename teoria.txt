@@ -2,6 +2,7 @@ comando para la base de datos en gitbash
     json-server
 para verificar que exista json y me lea el db.
     json-server --watch db.json
+    ******GIT******
 
 AJAX--ASYNCRONOUS JAVASCRIPT AND XML(LENGUAJE DE MARCADO)
 
