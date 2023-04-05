@@ -32,7 +32,7 @@ CONSOLA
 Esto es para un servidor local
 
 
-
+LIBRERIA -------------------------------
 UUID cdn
 <!--Script de uuid--dejamos la responsabilidad de asignar un id unico a un externo-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -40,3 +40,12 @@ UUID cdn
 en consola de navegador, escribo
 uuid.v4()
 '31a4effa-c4ac-48fc-ac21-9c6f3030d040'
+
+
+
+ASYNC- AWAIT
+async-define una funcion asincronasuna funcion async puede contener una expresion await, la cual pausa la ejecucion de la fundion asincrona y espera la resolucion de la promise pasda y, a continuacion, reanuda la ejecucion de la funcion async y devuelve al valor resuelto.
+
+TRY_CATCH
+dentro de la funcion asincrona para q funcione
+Esto es intentalo y si te sale genial pero si hay un error, atrapalo, prevenlo
